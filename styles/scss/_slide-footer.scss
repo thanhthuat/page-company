@@ -1,0 +1,18 @@
+.clsslidefooter{
+   padding: 20px 0px;
+    &-content{
+        display: flex;
+        border-top: 2px solid #EAEAEA ;
+        padding-top: 20px;
+        align-items: center;
+    }
+    &-text{
+        flex-basis: 50%;
+    }
+    &-flag{
+        width:  50%;
+        &__title{
+            margin-bottom: 15px;
+        }
+    }
+}

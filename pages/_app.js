@@ -1,5 +1,5 @@
-import '@/styles/globals.css';
-import "swiper/css";
+// import '@/styles/globals.css';
+ import "swiper/css";
 import '../styles/scss/index.scss';
 
 

@@ -1,0 +1,116 @@
+.clsheader{
+    background: $white-main;
+    padding: 20px 70px;
+    display: flex;
+    gap: 20px;
+    &-list{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+}
+.clsheaderbg{
+    background: url('/image/home/bacground.svg') no-repeat;
+    height: 1100px;
+    position: relative;
+    background-position-y: 31%;
+    &-content{
+        position: absolute;
+        top:31%;
+        left: 50%;
+       
+        &__title{
+            font-size: 60px;
+            text-align: center;
+            color: $blue-main;
+        }
+
+        &__description{
+            margin-top: 60px;
+            font-size: 29px;
+            text-align: center;
+        }
+    }
+    &-doctor{
+        position: absolute;
+        top:18%;
+        left: 7%;
+        img{
+            width: 470px;
+        }
+    }
+    &-facity{
+        position: absolute;
+        top:80%;
+        left: 5%;
+        display: flex;
+    }
+
+    &-facity1{
+      background: $orange-main;
+      padding: 10px 22px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+      color: $white-main;
+      span ,b{
+        margin-top: 5px;
+        display: block;
+      }
+    }
+    &-facity2{
+        display: flex;
+       align-items: center;
+         background: $white-main;
+         img{
+            width: 90px;
+            height: auto;
+            margin-right: 15px;
+         }
+        padding: 10px 22px;
+        border-right: 2px solid $orange-main;
+        // border-radius: 15px;
+        // color: $white-main;
+        // span ,b{
+        //   margin-top: 5px;
+        //   display: block;
+        // }
+      }
+      &-facity3{
+        display: flex;
+        align-items: center;
+         background: $white-main;
+         border-right: 2px solid $orange-main;
+         img{
+            width: 90px;
+            height: auto;
+            margin-right: 15px;
+         }
+        padding: 10px 22px;
+        // border-radius: 15px;
+        // color: $white-main;
+        // span ,b{
+        //   margin-top: 5px;
+        //   display: block;
+        // }
+      }
+      &-facity4{
+        display: flex;
+        align-items: center;
+         background: $white-main;
+         border-right: 2px solid $orange-main;
+         img{
+            width: 90px;
+            height: auto;
+            margin-right: 15px;
+         }
+        padding: 10px 22px;
+        // border-radius: 15px;
+        // color: $white-main;
+        // span ,b{
+        //   margin-top: 5px;
+        //   display: block;
+        // }
+      }
+ 
+
+}

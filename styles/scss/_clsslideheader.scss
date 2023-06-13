@@ -1,0 +1,20 @@
+.clsslideheader{
+    background: $orange-main;
+    padding: 10px;
+    &-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__title{
+            color:$white-main ;
+            margin-right: 20px;
+        }
+        &__button{
+            color:$white-main ;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            color: $orange-main;
+        }
+    }
+}
