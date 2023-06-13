@@ -70,8 +70,8 @@ const Header = () => {
           </p>
         </div>
 
-        <div className="clsheaderbg-facity1">
-          <img src="" />
+        <div className="clsheaderbg-facity5">
+          <img src="/image/home/logo-settings.svg" />
           <p>
             Nhà máy <br />
             sản xuất <br />
@@ -79,8 +79,8 @@ const Header = () => {
           </p>
         </div>
 
-        <div className="clsheaderbg-facity1">
-          <img src="" />
+        <div className="clsheaderbg-facity6">
+          <img src="/image/home/logo-call.png" />
           <p>
             TƯ VẤN NGAY <br />
             08 9913 6868 <br />

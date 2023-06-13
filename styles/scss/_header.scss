@@ -111,6 +111,46 @@
         //   display: block;
         // }
       }
+
+      &-facity5{
+        display: flex;
+        align-items: center;
+         background: $white-main;
+         border-right: 2px solid $orange-main;
+         img{
+            width: 90px;
+            height: auto;
+            margin-right: 15px;
+           // background:$orange-main;
+         }
+        padding: 10px 22px;
+        // border-radius: 15px;
+        // color: $white-main;
+        // span ,b{
+        //   margin-top: 5px;
+        //   display: block;
+        // }
+      }
+      &-facity6{
+        display: flex;
+        align-items: center;
+         background: $white-main;
+        
+         img{
+            width: 90px;
+            height: auto;
+            margin-right: 15px;
+           // background:$orange-main;
+         }
+        padding: 10px 22px;
+        // border-radius: 15px;
+        // color: $white-main;
+        // span ,b{
+        //   margin-top: 5px;
+        //   display: block;
+        // }
+      }
+ 
  
 
 }
